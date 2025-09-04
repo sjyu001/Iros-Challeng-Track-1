@@ -1,6 +1,6 @@
-MODEL_PATH="Qwen/Qwen2.5-VL-7B-Instruct"
-INPUT_DATA="/raid/workspace/sjyu/iros_challenge/data/robosense_track1_realese_convert_temporal_20.json"
-FEW_SHOT_DATA="/raid/workspace/sjyu/iros_challenge/data/test_qa.json"
+MODEL_PATH="Qwen/Qwen2.5-VL-32B-Instruct"
+INPUT_DATA="robosense_track1_realese_convert_temporal_10.json"
+FEW_SHOT_DATA="test_qa.json"
 OUTPUT_DIR="outputs"
 K=5
 TEMPERATURE=0.2
@@ -11,7 +11,7 @@ PORT=8000
 mkdir -p "${OUTPUT_DIR}"
 
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-OUTPUT_FILE="${OUTPUT_DIR}/inference_results_image_cot_fewshot20_${TIMESTAMP}.json"
+OUTPUT_FILE="${OUTPUT_DIR}/results.json"
 
 echo "Running inference..."
 python inference_few_shot.py \
