@@ -15,3 +15,15 @@ python convert_format.py --use-temporal --num-frames 5
 - Temporal Data : 5
 - Few shot {k} : 10
 - Model : Qwen-VL 32B
+
+# Deploy
+We deploy the model using vLLM:
+```
+bash service.sh
+```
+
+4. Evaluate the baseline
+Simply run:
+```
+bash inference_few_shot.sh
+```
