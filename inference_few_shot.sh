@@ -1,8 +1,8 @@
 MODEL_PATH="Qwen/Qwen2.5-VL-32B-Instruct"
-INPUT_DATA="robosense_track1_realese_convert_temporal_10.json"
+INPUT_DATA="robosense_track1_realese_convert_temporal_5.json"
 FEW_SHOT_DATA="test_qa.json"
 OUTPUT_DIR="outputs"
-K=5
+K=10
 TEMPERATURE=0.2
 TOP_P=0.2
 MAX_TOKENS=512
