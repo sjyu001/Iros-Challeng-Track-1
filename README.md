@@ -13,6 +13,8 @@ pip install -r requirements.txt
 # Setting INPUT_DATA="robosense_track1_realese_convert_temporal_5.json"
 python convert_format.py --use-temporal --num-frames 5
 
+# Download FEW_SHOT_DATA="test_qa.json" data (https://huggingface.co/datasets/drive-bench/arena)
+# This data is DriveBench Data
 ```
 - Temporal Data : 5
 - Few shot {k} : 10
