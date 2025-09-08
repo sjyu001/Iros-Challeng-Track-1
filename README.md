@@ -10,7 +10,9 @@ pip install -r requirements.txt
 
 # Data Setting
 ```
+# Setting INPUT_DATA="robosense_track1_realese_convert_temporal_5.json"
 python convert_format.py --use-temporal --num-frames 5
+
 ```
 - Temporal Data : 5
 - Few shot {k} : 10
