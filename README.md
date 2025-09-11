@@ -67,6 +67,7 @@ bash service.sh
 ```
 
 ### 3. Evaluate the baseline
+for test you set --max_history_frames 0
 Simply run:
 ```
 bash inference_phase2_cvml.sh
