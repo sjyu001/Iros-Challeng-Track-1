@@ -48,9 +48,13 @@ Nuscenes
 ```
 
 ### 1. Data Processing
-Process Data as following steps
+Process qa data with nuscenes devkit
 ```
-# Extract
+python qa_2_nuscenes.py \
+  --input robosense_track1_phase2_convert_temporal_5.json \
+  --output final_nuscene.json \
+  --nusc_root /nuscenes/trainval \
+  --nusc_version v1.0-trainval
 ```
 
 or, just download from link
