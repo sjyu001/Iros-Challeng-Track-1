@@ -1,14 +1,15 @@
 # Iros-Challeng-Track-1
 Team CVML code repo
 
-# Preparing conda env
+# Phase 1
+1. Preparing conda env
 Assuming you have conda installed, let's prepare a conda env:
 ```
 conda create -n drive python=3.10
 pip install -r requirements.txt
 ```
 
-# Data Setting
+2. Data Setting
 ```
 # Setting INPUT_DATA="robosense_track1_realese_convert_temporal_5.json"
 python convert_format.py --use-temporal --num-frames 5
@@ -20,7 +21,7 @@ python convert_format.py --use-temporal --num-frames 5
 - Few shot {k} : 10
 - Model : Qwen-VL 32B
 
-# Deploy
+3. Deploy
 We deploy the model using vLLM:
 ```
 bash service.sh
