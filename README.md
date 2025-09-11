@@ -2,7 +2,7 @@
 Team CVML code repo
 
 # Phase 1
-1. Preparing conda env
+1. Preparing conda env \
 Assuming you have conda installed, let's prepare a conda env:
 ```
 conda create -n drive python=3.10
