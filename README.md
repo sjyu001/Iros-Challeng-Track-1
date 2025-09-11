@@ -32,3 +32,21 @@ Simply run:
 ```
 bash inference_few_shot.sh
 ```
+
+# Phase 2
+0. Nuscenes Data
+Download Nuscenes Trainval Dataset
+```
+Nuscenes
+--- trainval
+------ maps
+------ samples
+------ sweeps
+------ v1.0-trainval
+------ .v1.0-trainval_meta.txt
+```
+
+2. Data Processing
+```
+# Extract
+```
