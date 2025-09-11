@@ -47,6 +47,9 @@ Nuscenes
 ```
 
 2. Data Processing
+Process Data as following steps
 ```
 # Extract
 ```
+
+or, just download from link
