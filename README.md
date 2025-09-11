@@ -58,3 +58,4 @@ python qa_2_nuscenes.py \
 ```
 
 or, just download from link
+https://drive.google.com/file/d/1CdSH9p-6xD8ImRAF-nLYoCVl0NMY_zaT/view?usp=drive_link
