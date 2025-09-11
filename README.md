@@ -35,7 +35,7 @@ bash inference_few_shot.sh
 
 # Phase 2
 0. Nuscenes Data
-Download Nuscenes Trainval Dataset
+ Download Nuscenes Trainval Dataset
 ```
 Nuscenes
 --- trainval
@@ -47,9 +47,9 @@ Nuscenes
 ```
 
 2. Data Processing
-Process Data as following steps
+ Process Data as following steps
 ```
 # Extract
 ```
 
-or, just download from link
+ or, just download from link
