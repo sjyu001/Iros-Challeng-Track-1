@@ -171,7 +171,6 @@ class VLMInference:
         self.top_p = float(top_p)
         self.max_tokens = int(max_tokens)
         self.n_consistency = max(1, int(n_consistency))
-        self.k_shot = max(0, int(k_shot))
         self.max_history_frames = max(0, int(max_history_frames))
         self.include_raw_anchor_text = bool(include_raw_anchor_text)
         self.include_question_crops = bool(include_question_crops)
@@ -805,7 +804,6 @@ def main():
         top_p=args.top_p,
         max_tokens=args.max_tokens,
         n_consistency=args.n_consistency,
-        k_shot=args.k,
         max_history_frames=args.max_history_frames,
         include_raw_anchor_text=bool(args.include_raw_anchor_text),
         include_question_crops=bool(args.include_question_crops),
