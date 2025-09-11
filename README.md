@@ -59,3 +59,15 @@ python qa_2_nuscenes.py \
 
 or, just download from link
 https://drive.google.com/file/d/1CdSH9p-6xD8ImRAF-nLYoCVl0NMY_zaT/view?usp=drive_link
+
+### 2. Deploy
+We deploy the model using vLLM:
+```
+bash service.sh
+```
+
+### 3. Evaluate the baseline
+Simply run:
+```
+bash inference_phase2_cvml.sh
+```
