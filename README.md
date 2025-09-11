@@ -2,14 +2,14 @@
 Team CVML code repo
 
 # Phase 1
-1. Preparing conda env \
+### 1. Preparing conda env
 Assuming you have conda installed, let's prepare a conda env:
 ```
 conda create -n drive python=3.10
 pip install -r requirements.txt
 ```
 
-2. Data Setting
+### 2. Data Setting
 ```
 # Setting INPUT_DATA="robosense_track1_realese_convert_temporal_5.json"
 python convert_format.py --use-temporal --num-frames 5
@@ -21,21 +21,21 @@ python convert_format.py --use-temporal --num-frames 5
 - Few shot {k} : 10
 - Model : Qwen-VL 32B
 
-3. Deploy
+### 3. Deploy
 We deploy the model using vLLM:
 ```
 bash service.sh
 ```
 
-4. Evaluate the baseline
+### 4. Evaluate the baseline
 Simply run:
 ```
 bash inference_few_shot.sh
 ```
 
 # Phase 2
-0. Nuscenes Data
-   Download Nuscenes Trainval Dataset
+### 0. Nuscenes Data
+Download Nuscenes Trainval Dataset
 ```
 Nuscenes
 --- trainval
@@ -46,10 +46,10 @@ Nuscenes
 ------ .v1.0-trainval_meta.txt
 ```
 
-2. Data Processing
-   Process Data as following steps
+### 1. Data Processing
+Process Data as following steps
 ```
 # Extract
 ```
 
-   or, just download from link
+or, just download from link
