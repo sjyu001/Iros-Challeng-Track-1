@@ -60,15 +60,30 @@ python qa_2_nuscenes.py \
 or, just download from link
 https://drive.google.com/file/d/1XQq9ioAV9lBcYK_eG6Ev3dWCdg39DsRe/view?usp=drive_link
 
-### 2. Deploy
+### 2. Split QA per category
+For categoty specific methods, we first split qa.
+```
+python split.py
+```
+
+### 3. Deploy
 We deploy the model using vLLM:
 ```
 bash service.sh
 ```
 
-### 3. Evaluate the baseline
+### 4. Evaluate mathod per category
 for test you set --max_history_frames 0
 Simply run:
 ```
+# For perception-MCQs
 bash inference_phase2_cvml.sh
+
+# For other perceptions
+
+
+# For prediction
+
+
+# For corruption and planning
 ```
