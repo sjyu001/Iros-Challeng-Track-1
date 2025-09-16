@@ -58,7 +58,7 @@ python qa_2_nuscenes.py \
 ```
 
 or, just download from link
-google drive link[https://drive.google.com/file/d/1XQq9ioAV9lBcYK_eG6Ev3dWCdg39DsRe/view?usp=drive_link]
+https://drive.google.com/file/d/1XQq9ioAV9lBcYK_eG6Ev3dWCdg39DsRe/view?usp=drive_link
 
 ### 2. Deploy
 We deploy the model using vLLM:
