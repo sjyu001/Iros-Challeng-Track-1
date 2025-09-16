@@ -4,8 +4,8 @@ import re
 
 
 # ===== input/output root =====
-input_path = "/raid/workspace/sjyu/iros_challenge/data/final_nuscene_3_temporal.json"
-output_dir = "/raid/workspace/sjyu/iros_challenge/track1/final_output/split_results_original_qa"
+input_path = "final_nuscene_3_temporal.json"
+output_dir = "track1/split_results_original_qa"
 os.makedirs(output_dir, exist_ok=True)
 
 # ===== JSON load =====
@@ -44,10 +44,10 @@ for item in data:
 
 # ===== save =====
 outputs = {
-    "perception_mcq.json": perception_mcq,
-    "other_perception.json": other_perception,
-    "prediction.json": prediction,
-    "planning_corruption.json": planning_corruption,
+    "perception_mcq_qa.json": perception_mcq,
+    "other_perception_qa.json": other_perception,
+    "prediction_qa.json": prediction,
+    "planning_corruption_qa.json": planning_corruption,
 }
 
 for fname, content in outputs.items():
