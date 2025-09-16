@@ -77,13 +77,21 @@ for test you set --max_history_frames 0
 Simply run:
 ```
 # For perception-MCQs
-bash inference_phase2_cvml.sh
+bash inference_perception_mcq.sh
 
 # For other perceptions
-
+bash inference_other_perception.sh
 
 # For prediction
-
+bash inference_prediction.sh
 
 # For corruption and planning
+bash inference_planning_and_corruption.sh
+
+```
+
+### 5. Merge QA
+Finally, merging qa for final results
+```
+python merge.py
 ```
