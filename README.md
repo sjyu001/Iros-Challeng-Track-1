@@ -95,3 +95,10 @@ Finally, merging qa for final results
 ```
 python merge.py
 ```
+
+# Final Results
+Phase 1 and phase2 results is on here:
+```
+phase1_final_results.json
+phase2_final_results.json
+```
